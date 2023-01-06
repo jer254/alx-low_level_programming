@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
- * sqrt_a - checks the code 
+ * sqrt_a - checks the code.
  * @a: number
  * @b: number of power
  * Return: Always 0.
  */
-
 int sqrt_a(int a, int b)
 {
 	if (b * b == a)
@@ -19,7 +17,6 @@ int sqrt_a(int a, int b)
 	}
 	return (sqrt_a(a, b + 1));
 }
-
 /**
  * _sqrt_recursion - checks the code 
  * @n: number
